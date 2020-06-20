@@ -2,17 +2,17 @@
  declaring a variable using const */
 
 const name = "Himanshu";
+
 // printing that variable
 name;
 
 /* we can't change const variable having primitive datatypes as values
-changing name with throw an error */
+changing name with throw an error, check the error by uncommenting the line below */
 
 // name = "Harsh";
 
 /* Initializing is must while declaring the const variables
-    if we don't do that it again throws an error
-*/
+    if we don't do that it again throws an error, check the error by uncommenting the line below */
 
 // const age;
 
@@ -22,11 +22,13 @@ changing name with throw an error */
 
 const arr = [];
 arr[0] = 1;
+
 // printing arr
 arr;
 
 const obj = {};
 obj.name = "Himanshu";
+
 //printing obj
 obj;
 
