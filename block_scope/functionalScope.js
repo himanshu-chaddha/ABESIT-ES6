@@ -35,25 +35,25 @@ it will allow to duplicate the functions inside a block and just over
     function fn() { return 1; }
     function fn() { return 3; }
     console.log(fn());
-    {  
+    {
         console.log(fn());
         function fn() { return 2; }
         console.log(fn());
     }
     console.log(fn());
- }
+}
 
- 
+
 /* now if we wanna stop this duplication we have to use
  'use strict' statement above all the declarations it works similarly
  as let and const */
 
- {
+{
     console.log(fn());
     function fn() { return 1; }
     console.log(fn());
     function fn() { return 3; }
-    {  
+    {
         console.log(fn());
         function fn() { return 2; }
         console.log(fn());
