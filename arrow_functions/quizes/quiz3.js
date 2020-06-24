@@ -4,6 +4,7 @@ const person = {
     name: 'bob',
     updateName: function () {
         (() => {
+            console.log(this);
             this.name = 'suzy'
         })();
     }

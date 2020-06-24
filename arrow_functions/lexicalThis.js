@@ -44,3 +44,10 @@ obj = {
     }
 }
 obj.increment();
+
+
+/* self invoking functions*/
+
+(function (){
+    console.log("Hello I am Self Invoking function")
+})();

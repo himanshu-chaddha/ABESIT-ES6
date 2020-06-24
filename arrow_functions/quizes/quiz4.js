@@ -6,7 +6,9 @@ const person = {
         this.age = newAge;
     },
     refreshAge: function (userId) {
+        // let that = this;
         fetchAgeFromDb(function (newAge) {
+            // console.log(that)
             this.setAge(newAge);
         })
     }
