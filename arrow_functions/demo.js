@@ -58,4 +58,21 @@ byTwo;
 
 
 
+// this keyword demo
 
+let person = {
+    firstName: 'testName',
+    lastName: 'Sirname',
+    getFullName: function (city, years) {
+        return this.firstName + " " + this.lastName + " lives in " + city + ' and is ' + years +' years old';
+    }
+}
+
+console.log(person.getFullName('ghaziabad', 25));
+
+let himanshu = {
+    firstName: 'Himanshu',
+    lastName: 'Chaddha'
+}
+
+console.log(person.getFullName.call(himanshu,'delhi', 30));
