@@ -57,10 +57,10 @@ function getHobbies() {
     });
 }
 
-getName().then((name)=>{
+getName().then((name) => {
     console.log(name);
 });
 
-getAge().then((age)=>{
+getAge().then((age) => {
     console.log(age);
 });
